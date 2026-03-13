@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-resume-green: #76933c;
+  --color-resume-text: #333333;
+  --color-resume-muted: #666666;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-resume-text bg-gray-100;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
